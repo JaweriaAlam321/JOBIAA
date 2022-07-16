@@ -4,13 +4,14 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Register from './Components/Register';
 import Register2 from './Components/Register2';
 import Login from './Components/Login'
+import Home from './pages/Home/Home';
 
 function App() {
 
   return (
     <>
       <Routes>
-        <Route path='/' element={<Register />}/>
+        <Route path='/' element={<Home />}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/register2' element={<Register2 />}/>
 
